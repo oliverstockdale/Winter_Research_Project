@@ -29,6 +29,8 @@ def convertAngles():
 	# creates a vector to store coordinates
 	posVec = np.zeros((len(raRad), 3))
 	
+	global posVec
+	
 	for i in range(0, len(raRad)):
 		posVec[i] = (x[i], y[i], z[i])
 	
